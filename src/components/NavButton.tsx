@@ -1,6 +1,7 @@
 'use client';
+
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/helper";
 
 export const NavButton: React.FC = () => {
   const router = useRouter();
